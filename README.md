@@ -1,7 +1,5 @@
 # 2200290100192
 
-Stock price aggregation project completed in 1 hour.
-
 ## Structure
 
 - **Question1**: Backend API (Express + Node)
