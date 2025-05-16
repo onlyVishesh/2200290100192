@@ -21,7 +21,6 @@ const CorrelationPage: React.FC = () => {
       try {
         const stocksData = await getStocks();
 
-        // Limit to 5 stocks for simplicity
         const limitedStocks: StockMap = {};
         const entries = Object.entries(stocksData);
         for (let i = 0; i < Math.min(5, entries.length); i++) {

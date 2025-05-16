@@ -33,7 +33,7 @@ router.get("/stocks/:ticker", async (req, res) => {
       const result = await stockService.getAverageStockPrice(ticker, minutes);
       res.json(result);
     } else {
-      // If no aggregation specified, return raw price history
+     
       const cacheKey = CACHE_KEYS.STOCK_HISTORY(ticker, minutes);
 
       let priceHistory;

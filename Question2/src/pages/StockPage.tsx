@@ -37,7 +37,6 @@ const StockPage: React.FC = () => {
       try {
         const stocksData = await getStocks();
         setStocks(stocksData);
-        // Select first stock by default
         const firstTicker = Object.values(stocksData)[0];
         if (firstTicker) {
           setSelectedStock(firstTicker);
@@ -50,6 +49,8 @@ const StockPage: React.FC = () => {
 
     fetchStocks();
   }, []);
+
+  
   useEffect(() => {
     if (selectedStock) {
       fetchStockData();

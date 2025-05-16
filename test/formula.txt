@@ -1,0 +1,7 @@
+Formulas
+Celsius to Kelvin: K = C + 273.15
+Kelvin to Celsius: C = K - 273.15
+Fahrenheit to Celsius: C = (F-32) (5/9)
+Celsius to Fahrenheit: F = C(9/5) + 32
+Fahrenheit to Kelvin: K = (F-32) (5/9) + 273.15
+Kelvin to Fahrenheit: F = (K-273.15) (9/5) + 32

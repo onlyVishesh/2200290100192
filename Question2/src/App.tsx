@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import CorrelationPage from "./pages/CorrelationPage";
 import StockPage from "./pages/StockPage";
 
+
 function App() {
   return (
     <>
