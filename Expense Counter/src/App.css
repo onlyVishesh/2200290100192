@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  align-items: start;
+  margin: auto;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.title {
+  background: #1f49d2;
+  color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 600px;
+}
+
+.div2 {
+  border: 2px solid rgba(0, 0, 0, 0.233);
+  border-radius: 1rem;
+  width: 600px;
+  padding: 2rem;
+}
+
+.div2 h3 {
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.title p {
+  font-size: 2rem;
+}
+ul {
+  margin: 0rem;
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+li {
+  margin: 0rem;
+  padding: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+
+.test {
+  display: flex;
+  gap: 1rem;
+}
+
+.form {
+  border: 2px solid rgba(0, 0, 0, 0.233);
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 2rem;
+  gap: 2rem;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  font-size: 1.5rem;
+  margin-bottom: -1rem;
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column
+  ;
+  gap: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.field input {
+  height: 2rem;
+}
+
+.submit {
+  background: #204BCD;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
